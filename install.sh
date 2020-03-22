@@ -11,7 +11,7 @@ else
 
 
 	cd src
-	bash Miniconda3-latest-Linux-x86_64.sh -b -p ./conda
+	bash Miniconda3-latest-MacOSX-x86_64.sh -b -p ./conda
 	cd ../
 	if  test -f "./src/conda/bin/conda"; then
 	echo "Miniconda3 successfully installed"
@@ -26,7 +26,7 @@ else
 
 
 	cd src
-	bash Miniconda2-latest-Linux-x86_64.sh -b -p ./conda2
+	bash Miniconda2-latest-MacOSX-x86_64.sh -b -p ./conda2
 	cd ../
 	if  test -f "./src/conda2/bin/conda"; then
 	echo "Miniconda2 successfully installed"
